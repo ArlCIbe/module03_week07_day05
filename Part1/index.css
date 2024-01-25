@@ -1,0 +1,70 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+#header {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    border: 3px solid black
+}
+
+#refresh {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#refresh button {
+    margin: 0 auto;
+
+}
+
+#refresh h3{
+
+    margin: 0;
+    margin-top: 2%;
+}
+
+#header h1 {
+    display: inline-block;
+    font-size: 3em;
+    /* border: 3px solid black; */
+}
+
+#jokeSection{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 3px solid purple; */
+}
+
+.jokeCard {
+    width: 50%;
+    border: 3px solid aquamarine;
+    text-align: center;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin: 2%;
+    padding: 2%;
+}
+
+
+#jokePunchline {
+    visibility: hidden;
+}
+
+#content {
+    display: flex;
+}
