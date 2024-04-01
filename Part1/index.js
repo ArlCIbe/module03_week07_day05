@@ -1,5 +1,5 @@
 //Part 1-1
-
+console.log("Index.js linked successfully")
 
 let showPunchlineButtonHTML = document.querySelector("#showPunchlineButton");
 showPunchlineButtonHTML.addEventListener("click", function () {
